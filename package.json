@@ -1,7 +1,7 @@
 {
   "packageManager": "yarn@2.4.3",
-  "name": "svgo",
-  "version": "3.0.0",
+  "name": "@idationtech/svgo",
+  "version": "3.0.0.1",
   "description": "Nodejs-based tool for optimizing SVG vector graphics files",
   "license": "MIT",
   "keywords": [
@@ -10,42 +10,25 @@
     "optimize",
     "minify"
   ],
-  "homepage": "https://github.com/svg/svgo",
-  "bugs": {
-    "url": "https://github.com/svg/svgo/issues"
-  },
-  "author": {
-    "name": "Kir Belevich",
-    "email": "kir@belevi.ch",
-    "url": "https://github.com/deepsweet"
-  },
+  "homepage": "https://github.com/IDationTech/svgo",
+  "author": "Kir Belevich <kir@belevi.ch> (https://github.com/deepsweet)",
   "contributors": [
-    {
-      "name": "Sergey Belov",
-      "email": "peimei@ya.ru",
-      "url": "https://github.com/arikon"
-    },
-    {
-      "name": "Lev Solntsev",
-      "email": "lev.sun@ya.ru",
-      "url": "https://github.com/GreLI"
-    },
-    {
-      "name": "Bogdan Chadkin",
-      "email": "trysound@yandex.ru",
-      "url": "https://github.com/TrySound"
-    }
+    "Sergey Belov <peimei@ya.ru> (https://github.com/arikon)",
+    "Lev Solntsev <lev.sun@ya.ru> (https://github.com/GreLI)",
+    "Bogdan Chadkin <trysound@yandex.ru> (https://github.com/TrySound)"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/svg/svgo.git"
+    "url": "git://github.com/IDationTech/svgo.git"
   },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/svgo"
   },
   "main": "./lib/svgo-node.js",
-  "bin": "./bin/svgo",
+  "bin": {
+    "svgo": "bin/svgo"
+  },
   "types": "./lib/svgo.d.ts",
   "files": [
     "bin",
@@ -131,5 +114,9 @@
     "rollup-plugin-terser": "^7.0.2",
     "tar-stream": "^2.2.0",
     "typescript": "^4.8.4"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
