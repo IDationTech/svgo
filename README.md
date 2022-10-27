@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="./logo/logo-web.svg" width="348.61" height="100" alt="SVGO logo"/>
-</div>
-
 ## SVGO [![npm version](https://img.shields.io/npm/v/svgo)](https://npmjs.org/package/svgo) [![Discord](https://img.shields.io/discord/815166721315831868)](https://discord.gg/z8jX8NYxrE)
 
 **SVG O**ptimizer is a Node.js-based tool for optimizing SVG vector graphics files.
@@ -253,15 +249,10 @@ const config = await loadConfig(configFile, cwd);
 - as a Linux app - [Oh My SVG](https://github.com/sonnyp/OhMySVG)
 - as a Browser extension - [SVG Gobbler](https://github.com/rossmoody/svg-gobbler)
 - as an API - [Vector Express](https://github.com/smidyo/vectorexpress-api#convertor-svgo)
-
-## Donators
-
-| [<img src="https://sheetjs.com/sketch128.png" width="80">](https://sheetjs.com/) | [<img src="https://raw.githubusercontent.com/fontello/fontello/8.0.0/fontello-image.svg" width="80">](https://fontello.com/) |
-| :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
-|                       [SheetJS LLC](https://sheetjs.com/)                        |                                               [Fontello](https://fontello.com/)                                               |
+                                    |
 
 ## License and Copyright
 
 This software is released under the terms of the [MIT license](https://github.com/svg/svgo/blob/main/LICENSE).
 
-Logo by [André Castillo](https://github.com/DerianAndre).
+This project is a derived version of the main project : [https://github.com/svg/svgo](https://github.com/svg/svgo).
